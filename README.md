@@ -15,9 +15,6 @@ A production-ready system for extracting structured information from multi-docum
 ## Quick Start
 
 ### Prerequisites
-```bash
-pip install -r requirements.txt
-```
 
 ### Running the Backend
 ```bash
