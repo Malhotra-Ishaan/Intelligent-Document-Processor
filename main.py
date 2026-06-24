@@ -30,7 +30,7 @@ app.add_middleware(
 model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
 reranker = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")
 
-genai.configure(api_key="AIzaSyACLTk3la54Go1JP84NnVlPwiUO-dkFpHI")
+genai.configure(api_key="")
 model_gen = genai.GenerativeModel("gemini-2.5-flash")
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
